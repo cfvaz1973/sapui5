@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="futureview.fiori.sapui5.controller.Detail" displayBlock="true">
+  <Page id="detail" title="{i18n>DetailTitle}" showNavButton="true" navButtonPress="handleNavButtonPress">
+      <VBox id="_IDGenVBox1">
+          <Text id="_IDGenText1" text="{ProductName}"/>
+          <Text id="_IDGenText2" text="{UnitPrice}"/>
+          <Text id="_IDGenText3" text="{QuantityPerUnit}"/>
+          <Text id="_IDGenText4" text="{UnitsInStock}"/>          
+      </VBox>
+  <content/>
+  </Page>
+</mvc:View>
